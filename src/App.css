@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=My+Soul&family=Poppins:ital,wght@1,300&family=Roboto+Condensed:ital,wght@0,300;1,300&family=Tapestry&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Poppins:ital,wght@1,300&family=Roboto+Condensed:ital,wght@0,300;1,300&display=swap');
+/* ******************************Login********************************* */
+.login{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  margin-left: 48px;
+}
+.login-details{
+  display: flex;
+  flex-direction: column;
+}
+.bg{
+  height: 100vh;
+  background-image: url(bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  opacity:0.90;
+}
+.login-border{
+  border: 3px solid rgb(10, 9, 9);
+  border-radius: 20px;
+}
+.login-head{
+  margin-top: 50px;
+  color: azure;
+  font-family: 'My Soul', cursive;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Tapestry', cursive;
+}
+.type-string{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: 'My Soul', cursive;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Tapestry', cursive;
+}
+.by{
+  border-radius: 10px;
+  padding: 0px 10px;
+  color: rgb(255, 255, 255);
+  font-family: 'My Soul', cursive;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Tapestry', cursive;
+}
+.created{
+  font-size: 20px;
+  font-family: 'My Soul', cursive;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Tapestry', cursive;
+}
+/* ***************************************Todo************************************* */
+.todo-bg{
+  height: max-content;
+  background-image: url(todo1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  opacity:0.90;
+  
+}
+.container{
+  display: flex;
+  align-self: center;
+  justify-content: space-around;
+  align-content:center;
+  /* background: rgb(255, 255, 255); */
+}
+.todo-list{
+  background: rgba(202, 207, 207, 0.83);
+  padding: 25px 30px;
+  width: 700px;
+  margin: 134px auto;
+  border-radius: 15px;
+  box-shadow: 10px 10px 0 rgba(14, 14, 14, 0.70);
+  font-size: 18px;
+  font-family: 'My Soul', cursive;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Tapestry', cursive;
+}
+.look{
+  width: 70%!important;
+}
+.add-list{
+  align-content: flex-end;
+  font-size: 42px;
+  font-weight: 900;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 15px;
+  text-align: center;
+  line-height: 1;
+}
+.list-content{
+  overflow: auto;
+  height: 320px;
+}
+.todo{
+  list-style: none;
+}
+.btn{
+  border-radius: 20px!important;
+}
+input[type=checkbox]:checked + label {
+  color:rgb(65, 65, 65);
+  text-decoration: line-through;
+}
+td{
+  font-size: 22px!important;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) { 
+  /* STYLES HERE */
+  .todo-list{
+    font-size: 15px;
+  }
+  .btn{
+    font-size: 10px!important;
+  }
+}
